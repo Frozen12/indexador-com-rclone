@@ -13,6 +13,13 @@
       "description": "Por favor digite o nome do seu Cloud/Remoto que se encontra no arquivo rclone.conf file. Veja o leiame do arquivo https://github.com/samucamg/indexador-com-rclone",
       "value": ""
     }
+    {
+    "USER_NAME": {
+      "value": ""
+    }
+    "USER_PASSW": {
+      "value": ""
+    }    
 
 
   },

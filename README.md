@@ -3,7 +3,7 @@ INDEXADOR DE ARQUIVOS COM RCLONE
 Crie Index com qualquer servidor suportado pelo rclone.
 
 Obs.  Essa é ainda uma versão bem básica do indexador, sem praticamente nenhum css ou qualquer frescura.
-Futuramente se o tempo permitir melhorias poderão acontecer, mas já atende as necessidades básicas.
+A primeira melhora será uma autenticação básica, e futuramente se o tempo permitir melhorias poderão acontecer, mas já atende as necessidades básicas.
 
 Configuração Rápida/ 
 

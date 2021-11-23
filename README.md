@@ -1,20 +1,16 @@
-# SEVER INDEX COM HEROKU
+INDEXADOR DE ARQUIVOS COM RCLONE
 Crie Index com qualquer servidor suportado pelo rclone.
 
 Obs.  Essa é ainda uma versão bem básica do indexador, sem praticamente nenhum css ou qualquer frescura.
 Futuramente se o tempo permitir melhorias poderão acontecer, mas já atende as necessidades básicas.
 
-Heroku Um Clique/ 
+Configuração Rápida/ 
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/samucamg/indexador-com-rclone)
 
-###### Star my Repository & Support me
-
- Feel free to post Any [Issues](https://github.com/developeranaz/HEROKU-RCLONE-SERVE-INDEX) And share your ideas , Posting issues would help to improve this repo
-
 ## Como configurar ?
 ### Passo 1
-* Create uma conta grátis no [Heroku](https://dashboard.heroku.com/login)
+* Criar uma conta grátis no [Heroku](https://dashboard.heroku.com/login)
 * Faça login com qualquer navegador e aceite os termos.
 * Clique no botão Rapid deployment [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/samucamg/indexador-com-rclone) e configure isso.
 ### Step 2 (Criando o arquivo de configuração)

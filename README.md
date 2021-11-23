@@ -26,9 +26,14 @@ Configuração Rápida/
 * Cole a configuração da sua Url no campo 'CONFIG_FILE_IN_URL' 
 
 #### CLOUDNAME
+
 CLOUDNAME é o nome do cloud remoto no seu arquivo rclone.conf
 Você pode ver isso abrindo seu arquivo rclone.conf em qualquer editor de textos.
-See Examples image ![CLOUDNAME](https://i.imgur.com/lsBZabH.jpeg) Nos exemplos ‘ samuca ‘ ou ‘ cursos ‘ podem ser usados como CLOUDNAME
+Veja os exemplos na imagem abaixo:
+
+![CLOUDNAME](https://i.imgur.com/lsBZabH.jpeg) 
+
+No exemplo apresentado, ‘ samuca ‘ ou ‘ cursos ‘ podem ser usados como CLOUDNAME
 ### 
 
 ------------

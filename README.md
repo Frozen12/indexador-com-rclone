@@ -13,7 +13,7 @@ Configuração Rápida/
 ### Passo 1
 * Criar uma conta grátis no [Heroku](https://dashboard.heroku.com/login)
 * Faça login com qualquer navegador e aceite os termos.
-* Clique no botão Rapid deployment [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/samucamg/indexador-com-rclone) e configure isso.
+* Clique no botão Deploy to Heroku  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/samucamg/indexador-com-rclone) e configure isso.
 ### Step 2 (Criando o arquivo de configuração)
 #### CONFIG_FILE_IN_URL
 

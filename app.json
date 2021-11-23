@@ -1,0 +1,22 @@
+{
+  "name": "RCLONE SERVE INDEX",
+  "description": "Rclone server index utilizando Docker",
+  "repository": "https://github.com/samucamg/RCLONE-SERVER-INDEX",
+  "logo": "https://forum.rclone.org/uploads/default/original/2X/0/0f430bb0f2f7a9ed020a9e93c89f4d332adcac4b.gif",
+  "keywords": ["onedrive", "nginx", "fileindex", "mega", "onedrive", "remote-index", "anyremote", "anycloud", "cloud-downloader", "rclone-backdoor", "index-backdoor", "rclone", "index"],
+  "env": {
+     "CONFIG_IN_URL": {
+      "description": "Por favor cole a URL da configuração do seu rclone. Você pode utilizar por exemplo o site https://gist.github.com \r\n |Veja instruções em https://github.com/samucamg/indexador-com-rclone |➊.Gerar o arquivo rclone.conf de qualquer terminal ou cmd |➋.Você pode ter vários remotos de cloud em um único arquivo rclone.conf file  |➌.Você pode usar qualquer um website que ofereça acesso a raw texto como o gist-github ou pastbin.           |➍.Abra o arquivo rclone.conf em qualquer editor e cole no gist ou pastebin.          |➎.Escolha um nome e salve.          |➏.Clique na opção de salvar como RAW e copie a url.          |➐.Para não compartilhar a url escolha a opção de não listado no pastebin. |➑.Cole seu url abaixo." ,
+      "value": "https://gist.githu../raw/rclone.conf"
+    },
+     "CLOUDNAME": {
+      "description": "Por favor digite o nome do seu Cloud/Remoto que se encontra no arquivo rclone.conf file. Veja o leiame do arquivo https://github.com/samucamg/indexador-com-rclone",
+      "value": ""
+    }
+
+
+  },
+  "website": "",
+  "repository": "",
+  "stack": "container"
+ }

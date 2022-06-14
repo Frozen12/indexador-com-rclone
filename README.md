@@ -18,7 +18,7 @@ This program can only index one cloud at a time
  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Frozen12/rclone-remote-index)
 
 ### Step 2 - Create and Collect Rclone config file url
-#### CONFIG_FLIE_URL
+#### CONFIG_FILE_URL
 
 * Generate rclone.conf from any linux or windows terminal. If you don't know, Just search tutorials on YouTube.
 * You can have remotes from multiple cloud services in a single rclone.conf file
@@ -39,7 +39,7 @@ In the example shown, `samuca` or a`courses` can be used as `CLOUDNAME`
 
 ## Environment Variables
 
-- `CONFIG_FLIE_URL` : Direct link of rclone config file
+- `CONFIG_FILE_URL` : Direct link of rclone config file
 - `CLOUDNAME` : Rclone remote name ( Only this remote name will be served as index )
 - `PORT` : A port to route you traffic example `8090`
 

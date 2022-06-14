@@ -4,5 +4,6 @@ rclone version
 mkdir /.config
 mkdir /.config/rclone/
 wget "$CONFIG_FILE_URL" -O /.rclone.conf
+rclone config file
 rclone listremotes
 rclone serve http $CLOUDNAME: --addr :$PORT --vfs-read-chunk-size 128M

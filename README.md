@@ -27,7 +27,7 @@ This program can only index one cloud at a time
   and paste it into gist or pastebin, note that in gist or pastebin you will need to be logged in, and in pastebin publish it as unlisted, so that others people don't discover your config to misuse.
 * Choose any name and save.
 * Choose the option to save as RAW copy the url
-* Paste your Url configuration in the 'CONFIG_FILE_IN_URL' field
+* Paste your Url configuration in the 'CONFIG_FILE_URL' field
 
 #### CLOUDNAME
 

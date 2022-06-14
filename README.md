@@ -1,49 +1,55 @@
-INDEXADOR DE ARQUIVOS COM RCLONE
+# Cloud Index with Rclone
 
-Crie Index com qualquer servidor suportado pelo rclone.
+Create Index with any server supported by rclone.
 
-Obs.  Essa é ainda uma versão bem básica do indexador, sem praticamente nenhum css ou qualquer frescura.
-A primeira melhora será uma autenticação básica, e futuramente se o tempo permitir melhorias poderão acontecer, mas já atende as necessidades básicas.
+Note This is still a very basic version of the indexer, with virtually no css or any frills. 
+The first improvement will be a basic authentication, 
+and in the future, if time allows, improvements may happen, but it already meets the basic needs.
+### Limitation
+`````
+This program can only index one cloud at a time
+`````
+## How to configure ?
+### Step 1
+* Create a free account on Heroku
+* Log in with any browser and accept the terms.
+* Click the Deploy to Heroku button Deploy and configure this.
 
-Configuração Rápida/ 
+ [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Frozen12/rclone-remote-index)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/samucamg/indexador-com-rclone)
+### Step 2 - Create and Collect Rclone config file url
+#### CONFIG_FLIE_URL
 
-## Como configurar ?
-### Passo 1
-* Criar uma conta grátis no [Heroku](https://dashboard.heroku.com/login)
-* Faça login com qualquer navegador e aceite os termos.
-* Clique no botão Deploy to Heroku  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/samucamg/indexador-com-rclone) e configure isso.
-### Step 2 (Criando o arquivo de configuração)
-#### CONFIG_FILE_IN_URL
-
-* Gere o rclone.conf por qualquer terminal linux ou windows.  Caso não saiba, veja meus tutoriais em [SamucaTutoriais](https://www.youtube.com/c/SamucaTutoriais) .
-* Você pode ter remotos de varios serviços de clone em um único arquivo rclone.conf
-* Você precisa de algum site que te permita publicar textos no formato raw como [gist-github](https://gist.github.com) ou [Pastebin](https://pastebin.com) .
-* Depois de criada a configuração, abra o arquivo rclone.config usando qualquer editor de textos copie  todo o texto e cole no gist ou pastebin, observe que no gist ou pastebin você precisará estar logado, e no pastebin publique como não listado, para que outras pessoas não descubram sua config para usar indevidamente.
-* Escolha qualquer nome e salve.
-* Escolha a opção de salvar como RAW copie a url
-* Cole a configuração da sua Url no campo 'CONFIG_FILE_IN_URL' 
+* Generate rclone.conf from any linux or windows terminal. If you don't know, Just search tutorials on YouTube.
+* You can have remotes from multiple cloud services in a single rclone.conf file
+* You need a site that allows you to publish texts in raw format like [gist-github](https://gist.github.com) or [Pastebin](https://pastebin.com).
+* Once the configuration is created, open the rclone.config file using any text editor copy all the text 
+  and paste it into gist or pastebin, note that in gist or pastebin you will need to be logged in, and in pastebin publish it as unlisted, so that others people don't discover your config to misuse.
+* Choose any name and save.
+* Choose the option to save as RAW copy the url
+* Paste your Url configuration in the 'CONFIG_FILE_IN_URL' field
 
 #### CLOUDNAME
 
-CLOUDNAME é o nome do cloud remoto no seu arquivo rclone.conf
-Você pode ver isso abrindo seu arquivo rclone.conf em qualquer editor de textos.
-Veja os exemplos na imagem abaixo:
+CLOUDNAME is the name of the remote cloud in your rclone.conf file You can see this by opening your rclone.conf file in any text editor.
+See the examples in the image below:
 
 ![CLOUDNAME](https://i.imgur.com/lsBZabH.jpeg) 
+In the example shown, `samuca` or a`courses` can be used as `CLOUDNAME`
 
-No exemplo apresentado, ‘ samuca ‘ ou ‘ cursos ‘ podem ser usados como CLOUDNAME
-### 
+## Environment Variables
+
+- `CONFIG_FLIE_URL` : Direct link of rclone config file
+- `CLOUDNAME` : Rclone remote name ( Only this remote name will be served as index )
+- `PORT` : A port to route you traffic example `8090`
 
 ------------
-### Recursos
+## Features
+* Drive ,Mega ,Onedrive and many other clouds available.
+* 24x7 fixed link, permanent
+* Option to pause download or create strm file for Emby or Jellyfin (Can use download manager)
 
-* Drive ,Mega ,Onedrive e outros clouds disponíveis.
-* 24x7 link fixo, permanente
-* Opção de pausar download ou criar arquivo strm para Emby ou Jellyfin (Pode utilizar gerenciador de downloads)
-
-## Lista de Serviços Clouds compatíveis (Essa lista está constantemente modificando, consulte sempre a lista no [Rclone Oficial:](https://rclone.org/)
+## List of supported Cloud Services (This list is constantly changing, always check the list on the [Rclone Oficial:](https://rclone.org/)
 
   * 1Fichier [:page_facing_up:](https://rclone.org/fichier/)
   * Alibaba Cloud (Aliyun) Object Storage System (OSS) [:page_facing_up:](https://rclone.org/s3/#alibaba-oss)
